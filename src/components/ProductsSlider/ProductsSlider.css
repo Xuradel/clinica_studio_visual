@@ -1,0 +1,10 @@
+
+
+
+.products-slider{display: flex; border: solid 2px red;justify-content: center;}
+
+
+.product-card{width: 216px; height: 280px;display: flex; flex-direction: column;gap:.5rem}
+.product-image img{width: 100%;height: auto;}
+.product-text{display: flex; flex-direction: column;}
+
