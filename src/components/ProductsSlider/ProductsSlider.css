@@ -2,6 +2,7 @@
 .product-text{display: flex; flex-direction: column;}
 
 .products{margin: 6rem 0;}
+.splide-carousel{display: flex;justify-content: center;}
 .splide-container{display: flex;justify-content: center;}
 
 

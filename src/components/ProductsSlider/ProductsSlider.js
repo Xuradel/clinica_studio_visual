@@ -62,6 +62,7 @@ const ProductsSlider = () => {
             perPage: perPage,
             perMove: 1,
             speed: 2000,
+            gap: '1rem'
           }}
           className="splide-carousel"
         >
