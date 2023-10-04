@@ -1,0 +1,43 @@
+[
+    {
+      "title": "Pack Blue Diamond",
+      "price": 35000,
+      "imageSrc": "/assets/pack_blue_diamond.webp",
+      "colors": ["black", "brown"],
+      "sizes": [],
+      "description": "",
+      "featured": false,
+      "productId": 1
+    },
+    {
+      "title": "Pack Focus White",
+      "price": 9000,
+      "imageSrc": "/assets/pack_focus_white.webp",
+      "colors": [],
+      "sizes": [],
+      "description": "",
+      "featured": false,
+      "productId": 2
+    },
+    {
+      "title": "Pack Focus Plus",
+      "price": 33000,
+      "imageSrc": "/assets/pack_focus_plus.webp",
+      "colors": ["white", "black"],
+      "sizes": [],
+      "description": "",
+      "featured": true,
+      "productId": 3
+    },
+    {
+      "title": "AROS DESDE ₡5000",
+      "price": 5000,
+      "imageSrc": "/assets/aros_desde_5000.webp",
+      "colors": ["gray", "black", "white"],
+      "sizes": ["Pequeño", "Mediano", "Grande"],
+      "description": "",
+      "featured": false,
+      "productId": 4
+    }
+  ]
+  

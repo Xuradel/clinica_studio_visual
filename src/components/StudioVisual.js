@@ -1,16 +1,18 @@
-import React from 'react'
-import Nav from './Nav/Nav'
-import Header from './Header/Header'
-import ProductsSlider from './ProductsSlider/ProductsSlider'
+import React from "react";
+import Header from "./Header/Header";
+import ProductsSlider from "./ProductsSlider/ProductsSlider";
+import Branches from "./Branches/Branches";
+import Contact from "./contact/Contact";
 
 const StudioVisual = () => {
   return (
     <>
-        <Nav />
-        <Header />
-        <ProductsSlider />
+      <Header />
+      <ProductsSlider />
+      <Branches />
+      <Contact />
     </>
-  )
-}
+  );
+};
 
-export default StudioVisual
+export default StudioVisual;

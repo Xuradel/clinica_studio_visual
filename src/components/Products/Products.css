@@ -1,0 +1,127 @@
+.detail-page{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+.detail-page-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.page-links{
+    display: flex;
+    align-items: center;
+    gap:.3rem
+}
+.next-links{    
+    display: flex;
+    align-items: center;
+    gap:.3rem;
+}
+.separator{
+    font-size: 14px;
+    font-weight: 100;
+}
+.detail-page-home{
+    font-size: 14px;
+    cursor: pointer;
+}
+.detail-page-item-name{
+    font-size: 14px; 
+    font-weight: 100;
+}
+.previous{
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.next{
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.disabled{color: rgb(172, 172, 172);}
+
+.detail-page-content{
+    display: flex;
+    gap:2rem;
+    align-self: center;
+}
+.detail-page-image{
+    width: 100%;
+}
+.detail-page-image img{
+    max-width: 100%;
+    height: auto;
+}
+.detail-page-info{
+    width: 50%;
+}
+.horizontal-splitter{
+    width: 100%;
+    border: 1px solid black;
+}
+.information-title{
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+.information-text{
+    font-size: 12px;
+    font-weight: 300;
+    max-height: 0;
+    transition: max-height 0.3s ease-out; /* Remove the transition property */
+    animation: fadeIn 0.5s ease-out; 
+}
+.information-text.show {
+    max-height: 500px; /* Set an appropriate max-height value */
+  }
+.detail-more-information{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 300px;
+}
+.information-item{
+    display: flex;
+    flex-direction: column;
+    gap:.3rem;
+}
+.social-media-shares{display: flex;gap:.5rem;}
+.whatsapp{color: #60D66A;}
+.facebook{color: #3A5797;}
+.twitter{color: #4ECEF4;}
+.pinterest{color: #F01951;}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      max-height: 0;
+    }
+    to {
+      opacity: 1;
+      max-height: 500px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .detail-page-content{
+        flex-direction: column;
+        gap:2rem;
+    }
+    .detail-page-info{
+        width: 100%;
+    }
+    .detail-more-information{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        width: 100%;
+    }
+}

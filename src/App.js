@@ -1,10 +1,10 @@
 import "./App.css";
-import StudioVisual from "./components/StudioVisual";
+import AppRoutes from "./components/AppRoutes";
 
 function App() {
   return (
     <>
-      <StudioVisual />
+      <AppRoutes />
     </>
   );
 }
